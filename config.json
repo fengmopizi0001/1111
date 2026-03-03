@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "updatedAt": "2024-03-03",
+  "license": {
+    "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEY0qQA2SKo7+iW25j9RmvaywepVDOHdiFZ1dHr3bfPMies9S0rVGVxRLtvFarXUU/ykvbEBNRirVTXBXGMZvWIA=="
+  },
+  "contact": {
+    "imageUrl": "https://d.0j7.cn/vKlLI"
+  },
+  "apiPlatforms": {
+    "modelscope": {
+      "name": "魔搭社区",
+      "endpoint": "https://api-inference.modelscope.cn/v1/chat/completions",
+      "visionModels": [
+        { "value": "Qwen/Qwen3.5-35B-A3B", "label": "Qwen3.5-35B-A3B" }
+      ],
+      "textModels": [
+        { "value": "ZhipuAI/GLM-5", "label": "GLM-5" },
+        { "value": "MiniMax/MiniMax-M2.5", "label": "MiniMax-M2.5" },
+        { "value": "deepseek-ai/DeepSeek-V3.2", "label": "DeepSeek-V3.2" }
+      ]
+    },
+    "siliconflow": {
+      "name": "硅基流动",
+      "endpoint": "https://api.siliconflow.cn/v1/chat/completions",
+      "visionModels": [
+        { "value": "Pro/Qwen/Qwen2.5-VL-7B-Instruct", "label": "Qwen2.5-VL-7B" },
+        { "value": "zai-org/GLM-4.6V", "label": "GLM-4.6V" }
+      ],
+      "textModels": [
+        { "value": "deepseek-ai/DeepSeek-V3.2", "label": "DeepSeek-V3.2" },
+        { "value": "moonshotai/Kimi-K2-Instruct-0905", "label": "Kimi-K2-Instruct" },
+        { "value": "zai-org/GLM-4.6V", "label": "GLM-4.6V" }
+      ]
+    }
+  },
+  "settings": {
+    "dailyRequestLimit": 300,
+    "defaultGrade": "初中二年级"
+  }
+}
