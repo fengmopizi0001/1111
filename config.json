@@ -5,7 +5,7 @@
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEY0qQA2SKo7+iW25j9RmvaywepVDOHdiFZ1dHr3bfPMies9S0rVGVxRLtvFarXUU/ykvbEBNRirVTXBXGMZvWIA=="
   },
   "contact": {
-    "imageUrl": "https://d.0j7.cn/vKlLI"
+    "imageUrl": "https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAERaJhppvFyq9fAUwclhkWEOkD2iUuVpQACoyYAAt7rOVVzWv37fKMk_DoE.jpg"
   },
   "apiPlatforms": {
     "modelscope": {
@@ -39,3 +39,4 @@
     "defaultGrade": "初中二年级"
   }
 }
+
